@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FastNotes</string>
+    <string name="action_insert">Insert new note</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_get_notes">GetNotes</string>
+
+    <string name="title_activity_application_adaptor">ApplicationAdaptor</string>
+    <string name="title_activity_first">FastNotes</string>
+    <string name="title_activity_view_note">ViewNote</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
