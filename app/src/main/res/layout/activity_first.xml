@@ -16,43 +16,40 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="FastNotes"
             android:id="@+id/textView3"
-            android:textSize="45sp"
-            android:textColor="#ff000000" />
+            android:textSize="40sp"
+            android:textColor="#ff2a1eff"
+            android:layout_marginLeft="90sp" />
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/imageView"
-                android:src="@drawable/fastnotes1" />
-        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#a530cd1f">
+        android:background="#ffffff"
+        android:weightSum="1">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="122dp"
             android:layout_height="wrap_content"
-            android:text="Create a note..!!"
+            android:text="Create note"
             android:id="@+id/createNoteButton"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="100sp" />
+            android:layout_marginTop="100sp"
+            android:background="#ff85aeff"
+            android:layout_weight="0.05"
+            android:textColor="#ff2a1eff" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="118dp"
             android:layout_height="wrap_content"
-            android:text="View Notes..!!"
+            android:text="View Notes"
             android:id="@+id/viewNoteButton"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="60sp" />
+            android:layout_marginTop="60sp"
+            android:background="#ff85aeff"
+            android:layout_weight="0.05"
+            android:textColor="#ff2a1eff" />
     </LinearLayout>
 
 </LinearLayout>

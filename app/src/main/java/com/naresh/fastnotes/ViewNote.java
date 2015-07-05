@@ -1,5 +1,6 @@
 package com.naresh.fastnotes;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -13,7 +14,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-public class ViewNote extends ActionBarActivity {
+public class ViewNote extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

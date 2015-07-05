@@ -8,38 +8,47 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="1"
-        android:background="#A530CD1F">
+        android:background="#ffffff">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Name your note!"
-            android:id="@+id/textView" />
+            android:text="Name your note"
+            android:id="@+id/textView"
+            android:textColor="#ff2a1eff" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/noteName" />
+            android:id="@+id/noteName"
+            android:background="#ff9aadc7"
+            android:layout_weight="0.51"
+            android:autoText="false" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Make your note!"
-            android:id="@+id/textView2" />
+            android:text="Make your note"
+            android:id="@+id/textView2"
+            android:textColor="#ff2a1eff" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="355dp"
-            android:id="@+id/noteText" />
+            android:id="@+id/noteText"
+            android:background="#ff9aadc7" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="Save &amp; Sync "
             android:id="@+id/loginButton"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:background="#ff85aeff"
+            android:layout_weight="0.28"
+            android:textColor="#ff2a1eff" />
 
     </LinearLayout>
 
