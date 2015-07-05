@@ -16,9 +16,9 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="FastNotes"
             android:id="@+id/textView3"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:textColor="#ff2a1eff"
-            android:layout_marginLeft="90sp" />
+            android:layout_marginLeft="85sp" />
 
     </LinearLayout>
 

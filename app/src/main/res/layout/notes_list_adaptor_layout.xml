@@ -15,7 +15,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/noteTitle"
             android:gravity="center_vertical"
-            android:textColor="#ff000000" />
+            android:textColor="#ff000000"
+            android:textSize="25sp" />
 
 
     </LinearLayout>
